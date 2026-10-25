@@ -1,0 +1,23 @@
+[3784:20784:1025/211928.041:ERROR:ui\gl\direct_composition_support.cc:255] GetGpuDriverOverlayInfo: Failed to retrieve video device
+[3784:20784:1025/211928.043:VERBOSE1:components\viz\service\main\viz_main_impl.cc:87] VizNullHypothesis is disabled (not a warning)
+[3784:2784:1025/211928.043:VERBOSE1:base\allocator\scheduler_loop_quarantine_config.cc:199] No entry found for gpu-process/viz-compositor.
+[22060:20684:1025/211928.095:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[2800:320:1025/211928.116:WARNING:chrome\browser\extensions\external_registry_loader_win.cc:283] Error observing HKLM: 5
+[4492:14168:1025/211928.128:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[21832:14548:1025/211928.214:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[22648:22468:1025/211928.228:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[1652:18532:1025/211928.257:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[13180:4592:1025/211928.263:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[16092:17056:1025/211928.283:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[22824:23492:1025/211928.305:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[22100:22892:1025/211928.324:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[14104:18748:1025/211928.326:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[19608:21600:1025/211928.336:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[22920:12240:1025/211928.343:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[2800:320:1025/211928.385:INFO:CONSOLE:6220] "[ProtocolLaunch] handler constructed; wiring port events.", source: chrome-extension://ndcpkimcihhghdcddljkfmmjccdmcmof/background.rollup.js (6220)
+[21852:15764:1025/211928.437:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[2800:320:1025/211929.528:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:252] Edge does not support fetching account capabilities
+[2800:320:1025/211929.528:WARNING:components\signin\internal\identity_manager\account_fetcher_service.cc:213] Should not execute: Tests depending on this function may fail
+[23656:23660:1025/211931.351:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[23900:23904:1025/211931.920:INFO:third_party\webrtc\rtc_base\cpu_info.cc:77] Available number of cores: 8
+[2800:16176:1025/211957.995:INFO:chrome\browser\extensions\extension_garbage_collector.cc:212] Garbage collection for extensions on file thread is complete.

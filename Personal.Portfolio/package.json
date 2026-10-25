@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website for UI/UX Design & Creative Development",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "ui-ux",
+    "creative-development",
+    "bca-project"
+  ],
+  "author": "Tamannaah Bhatia",
+  "license": "MIT"
+}

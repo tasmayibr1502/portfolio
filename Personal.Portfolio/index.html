@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamannaah Bhatia | UI/UX Designer & Creative Developer</title>
+  <meta name="description" content="Personal portfolio of Tamannaah Bhatia, an aspiring UI/UX designer and creative developer pursuing BCA. Exploring thoughtful design, intuitive interfaces, and purposeful code.">
+  <meta name="author" content="Tamannaah Bhatia">
+  
+  <!-- Google Fonts: Cormorant Garamond & DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Shared Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       1. SHARED NAVIGATION BAR
+       ========================================================================= -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <!-- Personal Wordmark Brand -->
+      <a href="index.html" class="brand-wordmark" aria-label="Tamannaah Bhatia Portfolio Home">
+        <span class="brand-name">Tamannaah Bhatia</span>
+        <span class="brand-title">UI/UX &bull; Creative Developer</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+        <a href="education.html" class="nav-link">Education</a>
+        <a href="skills.html" class="nav-link">Skills &amp; Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Header CTA -->
+      <a href="contact.html" class="nav-cta-btn">
+        <span>Let's Connect</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </a>
+
+      <!-- Mobile Hamburger Toggle Button -->
+      <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Accessible Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobileDrawer" aria-label="Mobile Menu">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link active" aria-current="page"><span>Home</span> &rarr;</a></li>
+        <li><a href="education.html" class="mobile-nav-link"><span>Education</span> &rarr;</a></li>
+        <li><a href="skills.html" class="mobile-nav-link"><span>Skills &amp; Projects</span> &rarr;</a></li>
+        <li><a href="contact.html" class="mobile-nav-link"><span>Contact</span> &rarr;</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. HERO SECTION (EDITORIAL ASYMMETRIC COMPOSITION)
+       ========================================================================= -->
+  <main id="mainContent">
+    <section class="hero-section" aria-labelledby="heroTitle">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Left Column: Editorial Typography & Bio Card -->
+          <div class="hero-content">
+            
+            <!-- Category Label & Olive Sprig SVG -->
+            <div class="hero-tag">
+              <svg class="hero-tag-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 2L15 8L22 9L17 14L18 21L12 17.5L6 21L7 14L2 9L9 8L12 2Z"></path>
+              </svg>
+              <span>Creative Portfolio &bull; BCA '25</span>
+            </div>
+
+            <!-- Giant Editorial Headline -->
+            <h1 class="hero-title-stacked" id="heroTitle">
+              <span>PORT</span>
+              <span>FOLIO</span>
+            </h1>
+
+            <!-- Editorial Script Accent Subtitle -->
+            <p class="hero-script-subtitle">
+              Designing digital experiences with purpose. Built with code, empathy, and craft.
+            </p>
+
+            <!-- Designer Greeting Card (Soft Beige Surface) -->
+            <div class="hero-intro-card">
+              <p class="hero-greeting">Hello, I'm</p>
+              <h2 class="hero-name">Tamannaah Bhatia</h2>
+              <p class="hero-bio">
+                An aspiring UI/UX designer and creative developer pursuing my Bachelor of Computer Applications (BCA).
+                I explore the intersection of thoughtful design and creative technology to build digital experiences
+                that feel intuitive, meaningful, and engaging.
+              </p>
+              
+              <!-- Call to Action Buttons -->
+              <div class="hero-actions">
+                <a href="skills.html" class="btn btn-primary">
+                  <span>Explore My Work</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="education.html" class="link-arrow">
+                  <span>More About Me</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Right Column: Designer Visual & Architectural Arch -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-composition">
+              
+              <!-- Terracotta Architectural Arch Backdrop -->
+              <div class="hero-arch-bg" aria-hidden="true"></div>
+
+              <!-- Main Framed Designer Portrait -->
+              <div class="hero-image-frame">
+                <!-- Editable Portrait Placeholder: Easily replaceable by student -->
+                <img 
+                  src="assets/images/designer-portrait.jpg" 
+                  alt="Editorial portrait of Tamannaah Bhatia, aspiring UI/UX designer and creative developer" 
+                  class="hero-image"
+                  width="480"
+                  height="640"
+                  loading="eager"
+                >
+              </div>
+
+              <!-- Stamped Rotating Circular Badge -->
+              <div class="rotating-badge-container" aria-hidden="true">
+                <svg class="rotating-badge-svg" viewBox="0 0 120 120">
+                  <defs>
+                    <path id="badgeTextCircle" d="M 60, 60 m -45, 0 a 45,45 0 1,1 90,0 a 45,45 0 1,1 -90,0" />
+                  </defs>
+                  <text font-family="'DM Sans', sans-serif" font-size="10.5" font-weight="600" fill="#49372D" letter-spacing="2.2">
+                    <textPath href="#badgeTextCircle" startOffset="0%">
+                      &bull; DESIGNER &bull; DEVELOPER &bull; THINKER &bull;
+                    </textPath>
+                  </text>
+                </svg>
+                <div class="badge-center-star">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2L14.4 9.6L22 12L14.4 14.4L12 22L9.6 14.4L2 12L9.6 9.6L12 2Z" />
+                  </svg>
+                </div>
+              </div>
+
+              <!-- Decorative Olive Botanical Sprig SVG -->
+              <div class="hero-botanical-accent" aria-hidden="true">
+                <svg viewBox="0 0 100 100" fill="none" stroke="#777653" stroke-width="2.5" stroke-linecap="round">
+                  <path d="M20,80 Q40,60 70,30" />
+                  <ellipse cx="45" cy="50" rx="9" ry="5" transform="rotate(-30 45 50)" fill="#777653" opacity="0.35" />
+                  <ellipse cx="60" cy="38" rx="8" ry="4.5" transform="rotate(-20 60 38)" fill="#777653" opacity="0.35" />
+                  <ellipse cx="72" cy="26" rx="7" ry="4" transform="rotate(-15 72 26)" fill="#777653" opacity="0.35" />
+                </svg>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         3. SPLIT EDITORIAL SECTION (SELECTED PROJECTS & CREATIVE SERVICES)
+         ========================================================================= -->
+    <section class="section editorial-split-section" id="selected-work" aria-labelledby="projectsSectionTitle">
+      <div class="container">
+        <div class="editorial-split-grid">
+          
+          <!-- Left Column: Selected Projects Previews -->
+          <div class="projects-column">
+            
+            <div class="column-header">
+              <div>
+                <p class="eyebrow">Curated Works</p>
+                <h2 class="column-header-title" id="projectsSectionTitle">Selected Projects</h2>
+              </div>
+              <svg class="column-header-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M12 2L15 8L22 9L17 14L18 21L12 17.5L6 21L7 14L2 9L9 8L12 2Z"></path>
+              </svg>
+            </div>
+
+            <div class="project-preview-list">
+              
+              <!-- Project 01: Chest X-Ray AI (Academic Project) -->
+              <article class="project-preview-card">
+                <div class="project-meta-wrap">
+                  <div class="project-meta-num">01</div>
+                  <h3 class="project-meta-title">AI-Based Chest X-Ray Detection</h3>
+                  <p class="project-meta-cat">Deep Learning &bull; Healthcare UI/UX &bull; Academic</p>
+                  <p class="project-meta-desc">
+                    An academic deep learning project exploring convolutional neural networks to classify pulmonary conditions, paired with an accessible diagnostic dashboard concept.
+                  </p>
+                  <a href="skills.html#project-1" class="link-arrow" aria-label="View Project 01 details">
+                    <span>View Project &amp; Case Study</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+                <div class="project-preview-thumb">
+                  <img src="assets/images/project-chestxray.jpg" alt="Preview mockup of AI Chest X-Ray diagnostic dashboard" width="140" height="100" loading="lazy">
+                </div>
+              </article>
+
+              <!-- Project 02: Productivity App (Concept Project) -->
+              <article class="project-preview-card">
+                <div class="project-meta-wrap">
+                  <div class="project-meta-num">02</div>
+                  <h3 class="project-meta-title">A Better Way to Stay Organized</h3>
+                  <p class="project-meta-cat">Productivity &bull; Interaction Design &bull; Concept</p>
+                  <p class="project-meta-desc">
+                    A conceptual digital planner and habit management platform engineered to reduce cognitive overload through serene visual hierarchy and calming workflows.
+                  </p>
+                  <a href="skills.html#project-2" class="link-arrow" aria-label="View Project 02 details">
+                    <span>View Project &amp; Case Study</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+                <div class="project-preview-thumb">
+                  <img src="assets/images/project-organizer.jpg" alt="Preview mockup of Serene Productivity Application" width="140" height="100" loading="lazy">
+                </div>
+              </article>
+
+              <!-- Project 03: Creative Portfolio (Live / Work in Progress) -->
+              <article class="project-preview-card">
+                <div class="project-meta-wrap">
+                  <div class="project-meta-num">03</div>
+                  <h3 class="project-meta-title">Creative Portfolio Website</h3>
+                  <p class="project-meta-cat">Visual Design &bull; Front-End &bull; In Progress</p>
+                  <p class="project-meta-desc">
+                    A handcrafted personal portfolio demonstrating editorial typography, semantic HTML5, custom CSS design tokens, and vanilla JavaScript interaction patterns.
+                  </p>
+                  <a href="skills.html#project-3" class="link-arrow" aria-label="View Project 03 details">
+                    <span>View Project &amp; Case Study</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <line x1="5" y1="12" x2="19" y2="12"></line>
+                      <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                  </a>
+                </div>
+                <div class="project-preview-thumb">
+                  <img src="assets/images/project-portfolio.jpg" alt="Preview mockup of Creative Portfolio website" width="140" height="100" loading="lazy">
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+          <!-- Right Column: What I Do / Creative Focus -->
+          <div class="services-column">
+            
+            <div class="column-header">
+              <div>
+                <p class="eyebrow">What I Do</p>
+                <h2 class="column-header-title">Creative Focus</h2>
+              </div>
+              <!-- Sunburst / Arch Icon -->
+              <svg class="column-header-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            </div>
+
+            <div class="services-list">
+              
+              <!-- Focus 1: UI/UX Design -->
+              <div class="service-item">
+                <div class="service-icon-badge badge-olive" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="9" y1="21" x2="9" y2="9"></line>
+                  </svg>
+                </div>
+                <div class="service-body">
+                  <h4>UI/UX &bull; Interface Design</h4>
+                  <p>Building thoughtful visual wireframes, prototypes, and user flows centered on clarity, accessibility, and intuitive interaction.</p>
+                </div>
+              </div>
+
+              <!-- Focus 2: Creative Development -->
+              <div class="service-item">
+                <div class="service-icon-badge badge-terracotta" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div class="service-body">
+                  <h4>Creative Front-End</h4>
+                  <p>Bringing designs to life with clean, semantic HTML5, modern responsive CSS3, and lightweight vanilla JavaScript.</p>
+                </div>
+              </div>
+
+              <!-- Focus 3: Design Systems -->
+              <div class="service-item">
+                <div class="service-icon-badge badge-olive" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                    <polyline points="2 17 12 22 22 17"></polyline>
+                    <polyline points="2 12 12 17 22 12"></polyline>
+                  </svg>
+                </div>
+                <div class="service-body">
+                  <h4>Design Systems</h4>
+                  <p>Curating cohesive color systems, typography hierarchies, and reusable tokens that preserve visual harmony across screens.</p>
+                </div>
+              </div>
+
+              <!-- Focus 4: Interaction & Animation -->
+              <div class="service-item">
+                <div class="service-icon-badge badge-terracotta" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                  </svg>
+                </div>
+                <div class="service-body">
+                  <h4>Purposeful Motion</h4>
+                  <p>Adding subtle, natural micro-animations and state transitions that guide attention without creating distraction.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         4. DESIGN PHILOSOPHY & INSPIRATION BANNER
+         ========================================================================= -->
+    <section class="section philosophy-section" aria-label="Design Philosophy">
+      <div class="container">
+        <div class="philosophy-grid">
+          
+          <div class="philosophy-text-col">
+            <span class="quote-mark" aria-hidden="true">&ldquo;</span>
+            <blockquote class="philosophy-quote">
+              Good design is never accidental; it lives at the delicate intersection of human empathy, aesthetic poise, and functional code. My goal is to simplify complex ideas into digital experiences that feel natural, honest, and effortless to navigate.
+            </blockquote>
+            <cite class="philosophy-author">Tamannaah Bhatia &bull; Aspiring Designer &amp; Developer</cite>
+          </div>
+
+          <div class="philosophy-visual">
+            <img 
+              src="assets/images/philosophy-still-life.jpg" 
+              alt="Organic terracotta ceramic vase with green olive branches resting on stone pedestal against arch" 
+              width="440" 
+              height="330"
+              loading="lazy"
+            >
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       5. SHARED FOOTER (TERRACOTTA THEME)
+       ========================================================================= -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Left: Editorial Invitation -->
+        <div>
+          <p class="eyebrow" style="color: rgba(245, 240, 232, 0.8);">Let's Connect</p>
+          <h2 class="footer-heading">
+            <span>Let's Create</span>
+            <span>Together</span>
+          </h2>
+          <p class="footer-subtext">
+            Have an internship opportunity, a creative collaboration in mind, or simply want to say hello?
+            I'd love to connect and share ideas.
+          </p>
+          <a href="contact.html" class="btn" style="background-color: var(--bg-primary); color: var(--accent-terracotta); font-weight: 600;">
+            <span>Get in Touch</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Right: Contact Information & Social Links -->
+        <div class="footer-nav-col">
+          <h5>Direct Information</h5>
+          
+          <div class="footer-contact-details">
+            <div class="footer-contact-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <!-- Editable Student Email Placeholder -->
+              <a href="mailto:tamannaah.bhatia@example.com">tamannaah.bhatia@example.com</a>
+            </div>
+            
+            <div class="footer-contact-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <span>tamannaah.design &bull; Personal Portfolio</span>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Bangalore, India &bull; Open to Remote</span>
+            </div>
+          </div>
+
+          <h5>Connect &amp; Social</h5>
+          <div class="footer-social-row">
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-social-pill" aria-label="LinkedIn Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-pill" aria-label="GitHub Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+            </a>
+            <!-- Behance -->
+            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="footer-social-pill" aria-label="Behance Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M3 8h5a2.5 2.5 0 0 1 0 5H3V8z"></path>
+                <path d="M3 13h5.5a2.5 2.5 0 0 1 0 5H3v-5z"></path>
+                <path d="M15 13a3.5 3.5 0 1 0 7 0c0-2-1.5-3.5-3.5-3.5S15 11 15 13z"></path>
+                <line x1="16" y1="7" x2="21" y2="7"></line>
+              </svg>
+            </a>
+            <!-- Dribbble -->
+            <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" class="footer-social-pill" aria-label="Dribbble Profile">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
+                <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
+                <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
+              </svg>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <p>&copy; 2026 Tamannaah Bhatia. Designed &amp; Coded from scratch for BCA Academic Project.</p>
+        <div class="footer-bottom-links">
+          <a href="index.html">Home</a>
+          <a href="education.html">Education</a>
+          <a href="skills.html">Skills &amp; Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <!-- Subtle Botanical Branch Illustration in Corner -->
+      <svg class="footer-botanical-bg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M10,90 Q40,60 80,10" />
+        <ellipse cx="35" cy="65" rx="14" ry="7" transform="rotate(-35 35 65)" fill="currentColor" />
+        <ellipse cx="55" cy="45" rx="12" ry="6" transform="rotate(-25 55 45)" fill="currentColor" />
+        <ellipse cx="72" cy="25" rx="10" ry="5" transform="rotate(-15 72 25)" fill="currentColor" />
+      </svg>
+    </div>
+  </footer>
+
+  <!-- Shared JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
